@@ -1,2 +1,13 @@
 server:
   port: 8000
+spring:
+  cloud:
+    gateway:
+      routes:
+        # 设置路由id
+        - id: member
+        # 设置路由规则
+          uri: http://127.0.0.1:8001
+        # 设置路由断言
+          predicates:
+            - Path=/member/**
