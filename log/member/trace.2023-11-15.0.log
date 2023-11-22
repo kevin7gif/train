@@ -1,0 +1,17 @@
+2023-11-15 23:00:32.500 INFO  com.kevin.train.member.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.9 with PID 15492 (F:\JavaTest\train\train-member\target\classes started by Lenovo in F:\JavaTest\train)
+2023-11-15 23:00:32.503 INFO  com.kevin.train.member.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-15 23:00:32.541 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-15 23:00:32.541 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-15 23:00:32.995 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=48394191-9eb3-3d9b-b00e-bd2c05b45a0f
+2023-11-15 23:00:33.494 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-11-15 23:00:33.502 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-11-15 23:00:33.503 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-11-15 23:00:33.503 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-11-15 23:00:33.554 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-15 23:00:33.554 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1012 ms
+2023-11-15 23:00:33.950 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-15 23:00:34.320 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-11-15 23:00:34.338 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-11-15 23:00:34.662 INFO  com.kevin.train.member.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 3.242 seconds (process running for 4.138)
+2023-11-15 23:00:34.665 INFO  com.kevin.train.member.MemberApplication          :21   [32m                  [0;39m 启动成功！
+2023-11-15 23:00:34.666 INFO  com.kevin.train.member.MemberApplication          :22   [32m                  [0;39m 地址：	http://127.0.0.1:8001/member

@@ -1,0 +1,2 @@
+GET http://localhost:800/member/member/count
+Accept: application/json

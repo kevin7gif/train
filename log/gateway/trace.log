@@ -1,0 +1,50 @@
+2023-11-22 11:15:55.250 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-22 11:15:55.394 INFO  com.kevin.train.gateway.GatewayApplication        :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.9 with PID 29816 (F:\JavaTest\train\train-gateway\target\classes started by Lenovo in F:\JavaTest\train)
+2023-11-22 11:15:55.394 INFO  com.kevin.train.gateway.GatewayApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-22 11:15:55.466 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-22 11:15:55.477 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-22 11:15:56.789 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=959fa138-7fe9-33b0-9cea-2f63b5b874c6
+2023-11-22 11:15:58.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-11-22 11:15:58.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-11-22 11:15:58.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-11-22 11:15:58.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-11-22 11:15:58.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-11-22 11:15:58.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-11-22 11:15:58.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-11-22 11:15:58.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-11-22 11:15:58.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-11-22 11:15:58.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-11-22 11:15:58.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-11-22 11:15:58.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-11-22 11:15:58.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-11-22 11:15:58.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-11-22 11:15:58.457 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-11-22 11:15:59.345 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2023-11-22 11:16:00.118 INFO  com.kevin.train.gateway.GatewayApplication        :57   [32m                  [0;39m Started GatewayApplication in 6.326 seconds (process running for 15.222)
+2023-11-22 11:16:00.121 INFO  com.kevin.train.gateway.GatewayApplication        :21   [32m                  [0;39m gateway模块启动成功！
+2023-11-22 11:16:00.121 INFO  com.kevin.train.gateway.GatewayApplication        :22   [32m                  [0;39m 网关地址：	http://127.0.0.1:8000
+2023-11-22 14:18:52.767 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-11-22 14:18:52.803 INFO  com.kevin.train.gateway.GatewayApplication        :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.9 with PID 26756 (F:\JavaTest\train\train-gateway\target\classes started by Lenovo in F:\JavaTest\train)
+2023-11-22 14:18:52.804 INFO  com.kevin.train.gateway.GatewayApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-22 14:18:52.849 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-22 14:18:52.849 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-22 14:18:53.373 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=959fa138-7fe9-33b0-9cea-2f63b5b874c6
+2023-11-22 14:18:54.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-11-22 14:18:54.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-11-22 14:18:54.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-11-22 14:18:54.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-11-22 14:18:54.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-11-22 14:18:54.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-11-22 14:18:54.229 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-11-22 14:18:54.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-11-22 14:18:54.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-11-22 14:18:54.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-11-22 14:18:54.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-11-22 14:18:54.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-11-22 14:18:54.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-11-22 14:18:54.230 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-11-22 14:18:54.368 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-11-22 14:18:54.956 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2023-11-22 14:18:55.619 INFO  com.kevin.train.gateway.GatewayApplication        :57   [32m                  [0;39m Started GatewayApplication in 3.81 seconds (process running for 4.564)
+2023-11-22 14:18:55.622 INFO  com.kevin.train.gateway.GatewayApplication        :21   [32m                  [0;39m gateway模块启动成功！
+2023-11-22 14:18:55.623 INFO  com.kevin.train.gateway.GatewayApplication        :22   [32m                  [0;39m 网关地址：	http://127.0.0.1:8000
