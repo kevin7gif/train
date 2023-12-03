@@ -7,5 +7,9 @@ package com.kevin.train.member.service;
  */
 public interface MemberService {
 
+    /** 注册 */
+    public long register(String mobile);
+
+    /** 总数*/
     public int count();
 }

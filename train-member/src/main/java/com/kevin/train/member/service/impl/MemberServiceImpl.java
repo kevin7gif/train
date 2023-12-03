@@ -1,9 +1,14 @@
 package com.kevin.train.member.service.impl;
 
+import cn.hutool.core.collection.CollUtil;
 import com.kevin.train.member.mapper.MemberMapper;
+import com.kevin.train.member.pojo.Member;
+import com.kevin.train.member.pojo.MemberExample;
 import com.kevin.train.member.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @author kevin
@@ -16,8 +21,27 @@ public class MemberServiceImpl implements MemberService {
     private MemberMapper memberMapper;
 
     @Override
+    public long register(String mobile) {
+        // 创建查询条件，判断手机号是否已经被注册
+        MemberExample example=new MemberExample();
+        example.createCriteria().andMobileEqualTo(mobile);
+        List<Member> members = memberMapper.selectByExample(example);
+
+        if(CollUtil.isNotEmpty(members)){
+            throw new RuntimeException("手机号已经被注册");
+        }
+
+        // 没有注册，直接进行插入操作
+        Member member=new Member();
+        member.setId(System.currentTimeMillis());
+        member.setMobile(mobile);
+        memberMapper.insert(member);
+        return member.getId();
+    }
+
+    @Override
     public int count() {
-        int count = memberMapper.count();
-        return count;
+        long l = memberMapper.countByExample(null);
+        return Math.toIntExact(l);
     }
 }
