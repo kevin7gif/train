@@ -12,9 +12,11 @@
     <artifactId>train-member</artifactId>
 
     <dependencies>
+
         <dependency>
             <groupId>com.kevin</groupId>
             <artifactId>train-common</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>

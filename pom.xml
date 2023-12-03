@@ -21,6 +21,7 @@
         <module>train-member</module>
         <module>train-common</module>
         <module>train-gateway</module>
+        <module>train-generator</module>
     </modules>
     <properties>
         <java.version>17</java.version>
