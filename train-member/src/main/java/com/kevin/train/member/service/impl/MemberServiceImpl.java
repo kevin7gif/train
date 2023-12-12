@@ -1,6 +1,8 @@
 package com.kevin.train.member.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
+import com.kevin.train.common.Exception.BusinessException;
+import com.kevin.train.common.Exception.BusinessExceptionEnum;
 import com.kevin.train.member.mapper.MemberMapper;
 import com.kevin.train.member.pojo.Member;
 import com.kevin.train.member.pojo.MemberExample;
@@ -28,7 +30,7 @@ public class MemberServiceImpl implements MemberService {
         List<Member> members = memberMapper.selectByExample(example);
 
         if(CollUtil.isNotEmpty(members)){
-            throw new RuntimeException("手机号已经被注册");
+            throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_EXIST);
         }
 
         // 没有注册，直接进行插入操作
