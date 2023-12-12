@@ -1,8 +1,10 @@
 package com.kevin.train.member.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.util.IdUtil;
 import com.kevin.train.common.Exception.BusinessException;
 import com.kevin.train.common.Exception.BusinessExceptionEnum;
+import com.kevin.train.common.util.SnowUtil;
 import com.kevin.train.member.mapper.MemberMapper;
 import com.kevin.train.member.pojo.Member;
 import com.kevin.train.member.pojo.MemberExample;
@@ -36,7 +38,7 @@ public class MemberServiceImpl implements MemberService {
 
         // 没有注册，直接进行插入操作
         Member member=new Member();
-        member.setId(System.currentTimeMillis());
+        member.setId(SnowUtil.getSnowflakeNextId());
         member.setMobile(req.getMobile());
         memberMapper.insert(member);
         return member.getId();
