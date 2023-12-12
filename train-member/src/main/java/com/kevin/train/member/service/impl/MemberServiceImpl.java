@@ -6,6 +6,7 @@ import com.kevin.train.common.Exception.BusinessExceptionEnum;
 import com.kevin.train.member.mapper.MemberMapper;
 import com.kevin.train.member.pojo.Member;
 import com.kevin.train.member.pojo.MemberExample;
+import com.kevin.train.member.req.MemberRegisterReq;
 import com.kevin.train.member.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,10 +24,10 @@ public class MemberServiceImpl implements MemberService {
     private MemberMapper memberMapper;
 
     @Override
-    public long register(String mobile) {
+    public long register(MemberRegisterReq req) {
         // 创建查询条件，判断手机号是否已经被注册
         MemberExample example=new MemberExample();
-        example.createCriteria().andMobileEqualTo(mobile);
+        example.createCriteria().andMobileEqualTo(req.getMobile());
         List<Member> members = memberMapper.selectByExample(example);
 
         if(CollUtil.isNotEmpty(members)){
@@ -36,7 +37,7 @@ public class MemberServiceImpl implements MemberService {
         // 没有注册，直接进行插入操作
         Member member=new Member();
         member.setId(System.currentTimeMillis());
-        member.setMobile(mobile);
+        member.setMobile(req.getMobile());
         memberMapper.insert(member);
         return member.getId();
     }

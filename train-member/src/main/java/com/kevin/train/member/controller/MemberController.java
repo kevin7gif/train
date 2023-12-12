@@ -1,7 +1,10 @@
 package com.kevin.train.member.controller;
 
 import com.kevin.train.common.resp.CommonResp;
+import com.kevin.train.member.req.MemberRegisterReq;
 import com.kevin.train.member.service.MemberService;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotBlank;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -28,8 +31,8 @@ public class MemberController {
     }
 
     @PostMapping("/register")
-    public CommonResp<Long> register(String mobile){
-        long register = memberService.register(mobile);
+    public CommonResp<Long> register(@Valid MemberRegisterReq req){
+        long register = memberService.register(req);
         CommonResp<Long> commonResp=new CommonResp<>();
         commonResp.setContent(register);
         return commonResp;

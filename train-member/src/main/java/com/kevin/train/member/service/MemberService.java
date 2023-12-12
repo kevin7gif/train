@@ -1,5 +1,7 @@
 package com.kevin.train.member.service;
 
+import com.kevin.train.member.req.MemberRegisterReq;
+
 /**
  * @author kevin
  * @version 1.0
@@ -8,7 +10,7 @@ package com.kevin.train.member.service;
 public interface MemberService {
 
     /** 注册 */
-    public long register(String mobile);
+    public long register(MemberRegisterReq mobile);
 
     /** 总数*/
     public int count();
